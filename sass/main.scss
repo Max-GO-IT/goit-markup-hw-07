@@ -1,2 +1,6 @@
-@import "./header";
-@import "./hero";
+@import "./layout/header";
+@import "./layout/hero";
+@import "./utils/vars";
+@import "./base/reset";
+@import "./base/normalize";
+@import "./base/common";

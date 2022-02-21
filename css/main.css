@@ -224,4 +224,60 @@ button:hover {
   letter-spacing: 00.03em;
   color: var(--secondary-text-color);
 }
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --hover-color: #2196f3;
+  --button-background-color: #f5f4fa;
+  --white-color: #ffffff;
+  --icons-color: #afb1b8;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
 /*# sourceMappingURL=main.css.map */
