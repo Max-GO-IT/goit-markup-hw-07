@@ -162,7 +162,7 @@ img {
 .contact-link:focus .smartphone {
   fill: var(--hover-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */ 
+} */ */
 
 /*ХИРО*/
 /* .hero {
@@ -650,7 +650,7 @@ portfolio-item:last-child {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
-.close-button {
+/* .close-button {
   position: absolute;
   top: 0;
   right: 0;
@@ -672,7 +672,7 @@ portfolio-item:last-child {
 }
 .close-cross-icon:hover {
   fill: var(--hover-color);
-}
+} */
 /* .is-hidden {
   opacity: 0;
   visibility: hidden;
