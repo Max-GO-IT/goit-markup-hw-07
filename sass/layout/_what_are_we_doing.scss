@@ -1,0 +1,44 @@
+.useless-crap {
+    padding-top: 0;
+}
+
+.second-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    text-align: center;
+}
+
+.apps {
+    margin-top: 50px;
+    display: flex;
+}
+
+.apps-item {
+    margin-right: 30px;
+}
+
+.apps-item:last-child {
+    margin-right: 0;
+}
+
+.apps-wrapper {
+    padding-top: 27px;
+    padding-bottom: 27px;
+    text-align: center;
+    width: 100%;
+    background: rgba(47, 48, 58, 0.8);
+    transform: translateY(-70px);
+}
+
+.wrapper-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--white-color);
+    text-transform: uppercase;
+}

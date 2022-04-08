@@ -1,0 +1,115 @@
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-location {
+    display: block;
+}
+
+.studio {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19em;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.footer-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #2f303a;
+}
+
+.footer-list {
+    margin-top: 20px;
+}
+
+.footer-item {
+    margin-bottom: 9px;
+}
+
+.footer-item:last-child {
+    margin-bottom: 0;
+}
+
+.contact-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.footer-contact {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-address:focus,
+.contact-address:hover {
+    color: var(--hover-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+    color: var(--hover-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social {
+    margin-left: 70px;
+}
+
+.footer-social-list {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--white-color);
+}
+
+.footer-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--white-color);
+}
+
+.footer-icon-link:hover {
+    background: var(--hover-color);
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-icon-link:focus {
+    background: var(--hover-color);
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
