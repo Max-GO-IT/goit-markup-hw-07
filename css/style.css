@@ -210,10 +210,10 @@ button:hover {
 } */
 
 /*ПРЕИМУЩЕСТВА*/
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 .features {
   display: flex;
   justify-content: space-between;
@@ -631,7 +631,7 @@ portfolio-item:last-child {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* МОДАЛКА */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   width: 100vw;
@@ -640,8 +640,8 @@ portfolio-item:last-child {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.modal {
+} */
+/* .modal {
   position: relative;
   width: 528px;
   height: 581px;
@@ -649,7 +649,7 @@ portfolio-item:last-child {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-}
+} */
 /* .close-button {
   position: absolute;
   top: 0;
