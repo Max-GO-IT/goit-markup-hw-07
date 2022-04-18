@@ -48,14 +48,13 @@
     margin-top: 4px;
     padding-left: 42px;
     outline: none;
-}
-
-.input:focus {
-    border-color: var(--hover-color);
-}
-
-.input:focus+.modal-icon {
-    fill: var(--hover-color);
+      &:focus {
+        border-color: var(--hover-color);
+    }
+    
+    &:focus+.modal-icon {
+        fill: var(--hover-color);
+    }
 }
 
 .div-textarea {
@@ -74,17 +73,16 @@
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     resize: none;
-}
-
-.textarea::placeholder {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5);
-    padding-left: 16px;
-    padding-top: 12px;
+      &::placeholder {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.01em;
+        color: rgba(117, 117, 117, 0.5);
+        padding-left: 16px;
+        padding-top: 12px;
+    }
 }
 
 .license {
@@ -107,17 +105,16 @@
     color: var(--secondary-text-color);
     margin-top: 20px;
     align-items: center;
-}
-
-.checkbox-text span {
-    display: flex;
-    width: 16px;
-    height: 15px;
-    border-radius: 2px;
-    border: 2px solid var(--primary-text-color);
-    align-items: center;
-    justify-content: center;
-    margin-right: 7px;
+        & span {
+        display: flex;
+        width: 16px;
+        height: 15px;
+        border-radius: 2px;
+        border: 2px solid var(--primary-text-color);
+        align-items: center;
+        justify-content: center;
+        margin-right: 7px;
+    }
 }
 
 .check {
