@@ -94,7 +94,7 @@
     fill: var(--hover-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-   &:hover .smartphone
+   &:hover .smartphone,
    &:focus .smartphone {
     fill: var(--hover-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);

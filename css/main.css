@@ -108,6 +108,12 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.contact-link:hover .smartphone,
+.contact-link:focus .smartphone {
+  fill: var(--hover-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .envelope {
   width: 16px;
   height: 12px;
@@ -122,11 +128,6 @@
   margin-right: 10px;
   vertical-align: middle;
   fill: var(--secondary-text-color);
-}
-
-.contact-link:focus .smartphone {
-  fill: var(--hover-color);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero {
@@ -377,26 +378,21 @@ button:hover {
   border-radius: 50%;
 }
 
-.social-icon {
-  width: 20px;
-  height: 20px;
-  fill: var(--icons-color);
-}
-
-.social-icon-link:hover,
-.social-icon-link:focus {
+.social-icon-link:hover, .social-icon-link:focus {
   background-color: var(--hover-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-icon-link:hover .social-icon {
+.social-icon-link:hover .social-icon,
+.social-icon-link:focus .social-icon {
   fill: var(--white-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-icon-link:focus .social-icon {
-  fill: var(--white-color);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--icons-color);
 }
 
 .our-clients-list {
@@ -428,19 +424,14 @@ button:hover {
   fill: var(--icons-color);
 }
 
-.our-clients-link:hover,
-.our-clients-link:focus {
+.our-clients-icon:hover, .our-clients-icon:focus {
   border: 1px solid var(--hover-color);
   color: var(--hover-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our-clients-link:hover .our-clients-icon {
-  fill: var(--hover-color);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.our-clients-link:focus .our-clients-icon {
+.our-clients-icon .our-clients-link:hover .our-clients-icon,
+.our-clients-icon .our-clients-link:focus .our-clients-icon {
   fill: var(--hover-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -576,8 +567,13 @@ button:hover {
   background: var(--button-background-color);
 }
 
-.portfolio-button:hover,
-.portfolio-button:focus,
+.portfolio-button:hover, .portfolio-button:focus {
+  background: var(--hover-color);
+  color: #f5f5f5;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .portfolio-button-active {
   background: var(--hover-color);
   color: #f5f5f5;
@@ -611,8 +607,14 @@ button:hover {
   margin-bottom: 30px;
 }
 
-portfolio-item:last-child {
+.portfolio-item:last-child {
   margin-left: 0;
+}
+
+.portfolio-item:hover .portfolio-text-wrapper
+.portfolio-item .portfolio-text-wrapper {
+  transform: translateY(0);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-link {
@@ -620,12 +622,7 @@ portfolio-item:last-child {
   text-decoration: none;
 }
 
-.portfolio-link:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.portfolio-link:focus {
+.portfolio-link:hover, .portfolio-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -673,16 +670,6 @@ portfolio-item:last-child {
   color: var(--white-color);
   background: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
-}
-
-.portfolio-item:hover .portfolio-text-wrapper {
-  transform: translateY(0);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.portfolio-link:focus .portfolio-text-wrapper {
-  transform: translateY(0);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .images-list {
@@ -698,8 +685,14 @@ portfolio-item:last-child {
   margin-bottom: 30px;
 }
 
-portfolio-item:last-child {
+.portfolio-item:last-child {
   margin-left: 0;
+}
+
+.portfolio-item:hover .portfolio-text-wrapper,
+.portfolio-item:focus .portfolio-text-wrapper {
+  transform: translateY(0);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-link {
@@ -707,12 +700,7 @@ portfolio-item:last-child {
   text-decoration: none;
 }
 
-.portfolio-link:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.portfolio-link:focus {
+.portfolio-link:hover, .portfolio-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -760,16 +748,6 @@ portfolio-item:last-child {
   color: var(--white-color);
   background: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
-}
-
-.portfolio-item:hover .portfolio-text-wrapper {
-  transform: translateY(0);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.portfolio-link:focus .portfolio-text-wrapper {
-  transform: translateY(0);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form {
