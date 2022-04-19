@@ -72,19 +72,19 @@
         &:focus {
         background-color: var(--hover-color);
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-        &:hover .social-icon,
-        &:focus .social-icon {
-        fill: var(--white-color);
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    
+    }   
 }
 
 .social-icon {
     width: 20px;
     height: 20px;
     fill: var(--icons-color);
+    
+    .social-icon-link:hover &,
+    .social-icon-link:focus & {
+            fill: var(--white-color);
+            transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
 }
 
 
