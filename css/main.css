@@ -234,9 +234,6 @@ button:hover {
 }
 
 .features-item-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 270px;
   height: 120px;
   background-color: var(--button-background-color);
@@ -510,9 +507,6 @@ button:hover {
 
 .footer-social-list {
   margin-top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .call {
@@ -526,9 +520,6 @@ button:hover {
 }
 
 .footer-icon-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -906,7 +897,7 @@ button:hover {
   pointer-events: none;
 }
 
-.our-clients-link {
+.features-item-wrapper, .our-clients-link, .footer-social-list, .footer-icon-link, .backdrop {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1170,9 +1161,6 @@ img {
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.2);
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .modal {
