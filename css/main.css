@@ -353,9 +353,6 @@ button:hover {
 
 .social-icon-list {
   margin-top: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .social-icon-item {
@@ -367,9 +364,6 @@ button:hover {
 }
 
 .social-icon-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -897,7 +891,7 @@ button:hover {
   pointer-events: none;
 }
 
-.features-item-wrapper, .our-clients-link, .footer-social-list, .footer-icon-link, .backdrop {
+.features-item-wrapper, .social-icon-list, .social-icon-link, .our-clients-link, .footer-social-list, .footer-icon-link, .backdrop {
   display: flex;
   align-items: center;
   justify-content: center;
