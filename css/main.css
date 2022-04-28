@@ -600,10 +600,6 @@ button:hover {
   margin-bottom: 30px;
 }
 
-.portfolio-item:last-child {
-  margin-left: 0;
-}
-
 .portfolio-item:hover .portfolio-text-wrapper
 .portfolio-item .portfolio-text-wrapper {
   transform: translateY(0);
@@ -676,10 +672,6 @@ button:hover {
 .portfolio-item {
   margin-left: 30px;
   margin-bottom: 30px;
-}
-
-.portfolio-item:last-child {
-  margin-left: 0;
 }
 
 .portfolio-item:hover .portfolio-text-wrapper,
