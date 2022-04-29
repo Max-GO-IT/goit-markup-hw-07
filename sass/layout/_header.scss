@@ -9,20 +9,14 @@
 }
 .logo {
   font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19em;
-  letter-spacing: 0.03em;
+  @include font(700, 26px, 1.19, 0.03em);
   text-decoration: none;
 
   color: var(--hover-color);
 }
 .logo-prefix {
   font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19em;
-  letter-spacing: 0.03em;
+  @include font(700, 26px, 1.19, 0.03em);
   text-decoration: none;
   color: var(--primary-text-color);
 }
@@ -38,10 +32,7 @@
   margin-right: 0;
 }
 .nav-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  @include font(500, 14px, 1.14, 0.02em);
   text-decoration: none;
   color: var(--primary-text-color);
   &:hover,
@@ -78,10 +69,7 @@
   }
 }
 .contact-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  @include font(500, 14px, 1.14,0.02em);
   text-decoration: none;
   color: var(--secondary-text-color);
    &:hover,

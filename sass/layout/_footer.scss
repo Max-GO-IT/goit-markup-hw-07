@@ -73,11 +73,7 @@
 }
 
 .call {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
+    @include font(700, 14px, 16px, 00.03em);
     text-transform: uppercase;
 
     color: var(--white-color);
