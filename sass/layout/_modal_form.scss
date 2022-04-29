@@ -19,10 +19,7 @@
 
 .label {
     font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.01em;
+    @include font(400, 12px, 1.16, 0.01em);
     color: var(--secondary-text-color);
 }
 
@@ -74,11 +71,7 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     resize: none;
       &::placeholder {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 14px;
-        letter-spacing: 0.01em;
+        @include font(400, 12px, 14px, 0.01em);
         color: rgba(117, 117, 117, 0.5);
         padding-left: 16px;
         padding-top: 12px;
@@ -98,10 +91,7 @@
 .checkbox-text {
     display: flex;
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
+    @include font(400, 14px, 24px, 0.03em);
     color: var(--secondary-text-color);
     margin-top: 20px;
     align-items: center;
@@ -150,8 +140,5 @@
 
 .submit-text {
     font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 0.53;
-    letter-spacing: 0.06em;
+    @include font(700, 16px, 0.53, 0.06em);
 }

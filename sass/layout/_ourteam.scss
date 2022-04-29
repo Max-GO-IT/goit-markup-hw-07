@@ -3,10 +3,7 @@
 }
 
 .team-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
+    @include font(700, 36px, 1.16, 0.03em);
     text-align: center;
     color: var(--primary-text-color);
 }
@@ -29,20 +26,14 @@
 }
 
 .team-name {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
+    @include font(500, 16px, 1.18, 0.03em);
     text-align: center;
     color: var(--primary-text-color);
 }
 
 .profession-text {
     margin-top: 10px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
+    @include font(400, 16px, 1.18, 0.03em);
     text-align: center;
     color: var(--secondary-text-color);
 }
