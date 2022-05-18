@@ -27,9 +27,10 @@
 }
 .nav-item {
   margin-right: 50px;
-}
-.nav-item:last-child {
+
+  &:last-child {
   margin-right: 0;
+  }
 }
 .nav-link {
   @include font(500, 14px, 1.14, 0.02em);
