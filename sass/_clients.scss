@@ -1,0 +1,35 @@
+.clients-list {
+    display: flex;
+    margin-top: 50px;
+}
+
+.clients-item {
+    margin-right: 30px;
+
+.clients-item:last-child {
+    margin-right: 0;}
+}
+
+.clients-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid $--icons-color;
+    border-radius: 4px;
+    color: $--icons-color;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    border: 1px solid $--hover-color;
+    color: $--hover-color;}
+}
+
+.clients-icon {
+    width: 106px;
+    height: 60px;
+    fill: currentColor;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

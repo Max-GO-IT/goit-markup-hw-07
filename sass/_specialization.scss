@@ -7,7 +7,7 @@
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color);
+    color: $--primary-text-color;
     text-align: center;
 }
 
@@ -18,10 +18,9 @@
 
 .specialization__item {
     margin-right: 30px;
-}
 
 .specialization__item:last-child {
-    margin-right: 0;
+    margin-right: 0;}
 }
 
 .specialization__wrapper {
@@ -39,6 +38,6 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
-    color: var(--white-color);
+    color: $--white-color;
     text-transform: uppercase;
 }

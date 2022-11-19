@@ -23,7 +23,7 @@
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    color: var(--white-color);
+    color: $--white-color;
 }
 
 .hero__button {
@@ -33,7 +33,7 @@
     border-radius: 4px;
     width: 200px;
     height: 50px;
-    color: var(--white-color);
+    color: $--white-color;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;

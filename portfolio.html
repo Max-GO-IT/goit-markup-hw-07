@@ -12,7 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- ХЕДЕР -->
@@ -24,10 +24,14 @@
         <nav>
           <ul class="header__menu">
             <li class="header__item">
-              <a class="header__link href="./index.html">Студія</a>
+              <a class="header__link" href="./index.html">Студія</a>
             </li>
             <li class="header__item">
-              <a class="header__link header__link-active"" href="./portfolio.html">Портфоліо</a>
+              <a
+                class="header__link header__link-active"
+                href="./portfolio.html"
+                >Портфоліо</a
+              >
             </li>
             <li class="header__item">
               <a class="header__link" href="#">Контакти</a>
@@ -40,7 +44,8 @@
               <svg class="envelope">
                 <use href="./images/sprite.svg#envelope"></use>
               </svg>
-              info@example.com</a>
+              info@example.com</a
+            >
           </li>
           <li class="header__contacts-item">
             <a class="header__contact-link" href="tel:+380991111111">
@@ -60,7 +65,10 @@
         <div class="container">
           <ul class="buttons-list">
             <li class="button-item">
-              <button class="portfolio-button portfolio-button-active"type="button">
+              <button
+                class="portfolio-button portfolio-button-active"
+                type="button"
+              >
                 Все
               </button>
             </li>
@@ -269,17 +277,25 @@
     <footer class="footer">
       <div class="container footer__container">
         <div class="footer__location">
-          <a class="logo" href="index.html">Web<span class="studio">Studio</span></a>
+          <a class="logo" href="index.html"
+            >Web<span class="studio">Studio</span></a
+          >
           <address class="footer__list">
             <ul>
               <li class="footer__item">
-                <a class="footer__address" href="">м.Київ,проспект Лесі Українки,26</a>
+                <a class="footer__address" href=""
+                  >м.Київ,проспект Лесі Українки,26</a
+                >
               </li>
               <li class="footer__item">
-                <a class="footer__contact" href="mailto:info@example.com">info@example.com</a>
+                <a class="footer__contact" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
               </li>
               <li class="footer__item">
-                <a class="footer__contact" href="tel:+380991111111">+38 099 111 11 11</a>
+                <a class="footer__contact" href="tel:+380991111111"
+                  >+38 099 111 11 11</a
+                >
               </li>
             </ul>
           </address>
@@ -316,16 +332,25 @@
               </a>
             </li>
           </ul>
-        </div> 
+        </div>
         <div class="footer__submit">
-          <label class="footer__submit-text" for="footer-email">підпишіться на розсилку</label>
+          <label class="footer__submit-text" for="footer-email"
+            >підпишіться на розсилку</label
+          >
           <form>
-          <input class="footer__submit-field" type="email" placeholder="E-mail" name="E-mail" id="footer-email">
-          <button class="footer__button">Підписатися
-           <svg class="footer__icon-send">
-            <use href="./images/sprite.svg#icon-send"></use>
-           </svg>
-          </button>
+            <input
+              class="footer__submit-field"
+              type="email"
+              placeholder="E-mail"
+              name="E-mail"
+              id="footer-email"
+            />
+            <button class="footer__button">
+              Підписатися
+              <svg class="footer__icon-send">
+                <use href="./images/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
