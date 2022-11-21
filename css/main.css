@@ -764,9 +764,6 @@ img {
   margin-left: 30px;
   margin-bottom: 30px;
 }
-.portfolio-item:last-child {
-  margin-left: 0;
-}
 
 .portfolio-link {
   display: block;
